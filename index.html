@@ -1,0 +1,53 @@
+<!DOCTYPE html lang="es">
+<html>
+    <meta charset="UTF-8">
+  <head>
+    <title>Pendientes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="entorno">
+            <div class="titulos">Mis pendientes</div>
+            <div id="datos">
+                <h2>Datos personales</h2>
+                <ul id="datos-ul">
+                    
+                </ul>
+            </div>
+            <div class="actividades" >
+                <h2>Actividades pendientes</h2>
+                <ul id="principal" >
+                </ul>
+            </div>
+            <div class="fechas">
+                <h2>Fechas de entrega</h2>
+                <ul id="principalfecha" class="estilo">
+                   
+                </ul>
+            </div>
+                <button class="btn" id="Btn">+</button>
+
+            <div class="form" id="form">
+                <div class="form_contenedor">
+                    <h1 class="tituloregis">Ingrese Datos de actividad</h1>
+                    <div class="contenedor-grupo">
+                        <label for="name" class="form-label">¿Que actividad tienes pendientes?</label>
+                        <input type="text" class="form_input" placeholder="Actividad" id="label-name" ></label>                 
+                    <span class="from_line"></span>            
+                    </div>
+                    <div class="contenedor-grupo">
+                        <label for="name" class="form-label">Fecha de finalizacion</label>
+                        <input type="date" id="label-fecha" class="form_input">
+                        <input type="time" id="label-hora" class="form_input">
+                        <span id="from_line"></span>
+                    </div>
+                    <button type="submit" id="Btn-confir">Confirmar</button>
+                </div>
+            </div>
+    </div> 
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
